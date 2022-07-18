@@ -10,11 +10,16 @@ function takeOneParameter(parameter) {
 
 takeOneParameter("Cat");
 
+// EX 2
 
-// let parameterPlus = "";
-// for (let i = 0; i < 5; i++) {
-//   parameterPlus = "parameter", "parameter";
-//   return parameterPlus;
-// }
+function takeOneParameterFiveTimes(parameter) {
+  let newParameter = "";
+  for (let i = 0; i <= 5; i++) {
+    newParameter = parameter.concat(newParameter);
 
-// console.log(parameterPlus);
+  }
+  console.log(newParameter);
+}
+
+takeOneParameterFiveTimes("Cat");
+
