@@ -60,8 +60,11 @@ largestNumber(1, 6, 83, 91, 0, -4, 1337, 5)
 // EX 5
 
 function takeANumber(numb) {
-  if (numb % 10 == 0) {
-    console.log("Even 10!");
+  for (let i = 0; i < 125; i++) {
+    if (numb % 10 == 0) {
+      console.log("Even 10!");
+    }
+
   }
 }
 
