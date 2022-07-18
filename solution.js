@@ -69,3 +69,13 @@ function takeANumber(numb) {
 }
 
 takeANumber(10)
+
+// EX 6
+
+const largestOne = () => {
+  console.log(Math.max(5, 8, 11, 54, 1));
+}
+largestOne()
+
+// EX 7
+
