@@ -79,3 +79,9 @@ largestOne()
 
 // EX 7
 
+const oneParameter = (a) =>
+  typeof a === 'string' ? console.log(true) : console.log(false);
+
+
+oneParameter("123")
+
