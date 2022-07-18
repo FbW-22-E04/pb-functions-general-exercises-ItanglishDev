@@ -91,3 +91,13 @@ const twoParameters = (a, b) =>
   typeof a === 'string' && typeof b === 'string' ? console.log(true) : console.log(false);
 
 twoParameters("a", '2')
+
+// EX 9
+
+
+const takeOneString = a => {
+  let newValueString = a.split(" ")
+  console.log(newValueString[0]);
+}
+
+takeOneString('Internetting is hard')
