@@ -23,3 +23,19 @@ function takeOneParameterFiveTimes(parameter) {
 
 takeOneParameterFiveTimes("Cat");
 
+
+// Ex 3
+
+function takesTwoParameters(num, string) {
+  let newParameter = "";
+  for (let i = 0; i < num; i++) {
+    newParameter = string.concat(newParameter);
+
+  }
+  console.log(newParameter);
+}
+
+takesTwoParameters(3, "Woah")
+
+
+
