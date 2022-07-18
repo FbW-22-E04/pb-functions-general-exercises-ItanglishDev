@@ -38,4 +38,31 @@ function takesTwoParameters(num, string) {
 takesTwoParameters(3, "Woah")
 
 
+// EX 4
 
+function largestNumber(...largestNumber) {
+  let largest = 0;
+  for (let i = 0; i < largestNumber.length; i++) {
+    if (largestNumber[i] > largest) {
+      largest = largestNumber[i]
+    }
+
+  }
+  for (let i = 0; i < largestNumber.length; i++) {
+    if (largestNumber[i] === largest) {
+    }
+
+  }
+  console.log(largest);
+}
+largestNumber(1, 6, 83, 91, 0, -4, 1337, 5)
+
+// EX 5
+
+function takeANumber(numb) {
+  if (numb % 10 == 0) {
+    console.log("Even 10!");
+  }
+}
+
+takeANumber(10)
