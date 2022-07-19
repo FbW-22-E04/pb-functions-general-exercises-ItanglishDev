@@ -169,3 +169,11 @@ const reverseEngineer = string => {
 }
 
 reverseEngineer('pillowtomato')
+
+// Ex 16
+
+const revEngineerTwo = string => {
+  console.log('Cat' + string.slice(2, string.length));
+}
+
+revEngineerTwo('potato')
