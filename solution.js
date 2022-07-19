@@ -102,17 +102,18 @@ takeOneString('Internetting is hard')
 
 //EX 10
 
-// const oneStringMultiple = a => {
-//   let newValueString = a.split(" ")
-//   // console.log(newValueString);
-//   let addingStrings = [];
-//   for (let i = 0; i < newValueString.length; i++) {
+// const hardExerciseArrowFunction = string => {
+//   let newString = "";
+//   let newStringArray = string.split(" ")
+//   for (let i = 0; i < newStringArray.length; i++) {
+//     newString += newStringArray[i];
+//     for (let j = 0; j < newStringArray.length; j++) {
 
-
+//     }
+//     console.log(newString.toString(""));
 //   }
-//   console.log(addingStrings);
 // }
-// oneStringMultiple("groot")
+// hardExerciseArrowFunction('cat food')
 
 // EX 11
 const firstLetterFunction = a => {
@@ -147,3 +148,16 @@ const recognizeString = a => {
   }
 }
 recognizeString(['jfnjvn', 'dwc', 'xwdcx'])
+
+
+// EX 14
+
+const isItAString = string => {
+  if (typeof string === 'string') {
+    console.log(string.split(""));
+  } else {
+    console.log(null);
+  }
+}
+
+isItAString('R & D')
