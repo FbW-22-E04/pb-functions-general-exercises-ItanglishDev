@@ -94,10 +94,28 @@ twoParameters("a", '2')
 
 // EX 9
 
-
 const takeOneString = a => {
   let newValueString = a.split(" ")
   console.log(newValueString[0]);
 }
-
 takeOneString('Internetting is hard')
+
+//EX 10
+
+// const oneStringMultiple = a => {
+//   let newValueString = a.split(" ")
+//   // console.log(newValueString);
+//   let addingStrings = [];
+//   for (let i = 0; i < newValueString.length; i++) {
+
+
+//   }
+//   console.log(addingStrings);
+// }
+// oneStringMultiple("groot")
+
+// EX 11
+const firstLetterFunction = a => {
+  console.log(a.slice(0, 1));
+}
+firstLetterFunction('dog')
