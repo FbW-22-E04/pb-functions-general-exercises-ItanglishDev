@@ -161,3 +161,11 @@ const isItAString = string => {
 }
 
 isItAString('R & D')
+
+//  EX 15
+
+const reverseEngineer = string => {
+  string.includes('o') ? console.log(true) : console.log(false);
+}
+
+reverseEngineer('pillowtomato')
