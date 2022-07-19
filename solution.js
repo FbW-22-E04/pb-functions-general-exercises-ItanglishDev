@@ -133,3 +133,17 @@ const returnANewString = string => {
 }
 
 returnANewString('MongoDB Express Node Reac')
+
+
+// EX 13
+const recognizeString = a => {
+
+  if (typeof a === 'string') {
+    console.log(a.length);
+  } else if (typeof a.isArray) {
+    console.log(a.length)
+  } else {
+    console.log(null)
+  }
+}
+recognizeString(['jfnjvn', 'dwc', 'xwdcx'])
