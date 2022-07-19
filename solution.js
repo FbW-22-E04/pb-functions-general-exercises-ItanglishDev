@@ -119,3 +119,17 @@ const firstLetterFunction = a => {
   console.log(a.slice(0, 1));
 }
 firstLetterFunction('dog')
+
+// EX 12
+const returnANewString = string => {
+  let newString = string.split(" ")
+  // console.log(newString);
+  let brandNewString = "";
+  for (let i = 0; i < newString.length; i++) {
+    brandNewString += newString[i].slice(0, 1)
+  }
+
+  console.log(brandNewString.toString());
+}
+
+returnANewString('MongoDB Express Node Reac')
